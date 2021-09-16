@@ -1,0 +1,73 @@
+*{
+    font-family: 'Open Sans';
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0);
+    background-color: #b49c73;
+    border: 1px solid #b49c73;
+    border-radius: 10px;
+   
+}
+
+.landing {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.landing .text-1 {
+    position: absolute;
+    top:50vh;
+}
+.landing .text-1 h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.landing .text-1 .btn{
+    background-color: #b49c73;
+}
+.Services{
+    background-color: black;
+}
+.Services span{
+    color: #b49c73;
+    font-weight: bold;
+}
+.Services .text-2 p {
+    line-height: 1.8;
+}
+.Services .text-2 .btn{
+    background-color: #b49c73;
+}
+.Services .box a i{
+    color: #b49c73 !important;
+}
+.clints img {
+    margin-top: -40px;
+}
+.clints span{
+    color: #b49c73;
+    font-weight: bold;
+}
+
+.Contact-Us span{
+    color: #b49c73;
+    font-weight: bold;
+}
+.Contact-Us .card {
+    background-color: #b49c73;
+}
+.Contact-Us .card .icons{
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+}
+footer span{
+    color: #b49c73;
+    font-weight: bold;
+}
